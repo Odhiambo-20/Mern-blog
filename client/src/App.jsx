@@ -7,6 +7,7 @@ import SignIn from './pages/SignIn'
 import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
 import Header from './components/Header'
+import { Footer } from 'flowbite-react'
 function App() {
   return (
     <BrowserRouter>
@@ -20,9 +21,7 @@ function App() {
       <Route path='/projects' element={<Projects/>}/>
 
     </Routes>
-    
-
-git init
+    <Footer/>
 
     </BrowserRouter>
   )
